@@ -1,5 +1,5 @@
 .cpides-allFlowStepScrollableContainer {
-	background-color: transparent !important;
+	background-color: #31363f !important;
 }
 
 .cpides-customMultiInput .sapMMultiInputBorder {
@@ -14,8 +14,8 @@
 .cpides-iflowPropertyViewerToolbar {
 	float: right;
 	margin-right: 4.25rem;
-	background-color: transparent;
-	border: none !important;
+	background-color: #31363f;
+	border: 1px solid #4a515d !important;
 }
 
 div[id$='iflowPropNavigationBar'] .sapMITBContainerContent {
@@ -90,8 +90,8 @@ div[id$='iflowPropNavigationBar'] .sapMITBContainerContent {
 }
 
 .cpides-iflowCpiSplitter .cpiUiSplitterBarButton .sapMBtnInner {
-	background-color: inherit !important;
-	border: none !important;
+	background-color: #353b45 !important;
+	border: 1px solid #4a515d !important;
 	padding: 0;
 }
 
@@ -614,7 +614,7 @@ html.sap-desktop .cpides-allFlowStepScrollableContainer.sapMScrollContV::-webkit
 }
 
 .cpides-queryBlock {
-	border: 1px solid hsl(0deg 0% 25%);
+	border: 1px solid #4a515d;
 	word-break: break-all;
 	font-size: 0.875rem;
 }
@@ -624,4 +624,93 @@ html.sap-desktop .cpides-allFlowStepScrollableContainer.sapMScrollContV::-webkit
 	margin-right: .5rem !important;
 	margin-left: .5rem !important;
 	padding-right: 0 !important;
+}
+
+/* Soft Dark Theme */
+
+body,
+.sapUiBody,
+.sapMPage,
+.sapMDialog,
+.sapMDialogSection,
+.sapMPanel,
+.sapMList,
+.sapMLIB,
+.sapMITBContainerContent,
+.sapUxAPObjectPageContainer,
+.sapUxAPObjectPageSection,
+.sapUxAPObjectPageSubSection,
+.sapUiRespGrid,
+.sapUiBlockLayout,
+.sapUiBlockCellContent,
+.sapMInputBaseContentWrapper,
+.sapMTextAreaInner,
+.sapMInputBaseInner,
+.sapMTable,
+.sapMTB,
+.sapMHeader-CTX,
+.sapContrastPlus,
+.sapContrast,
+.sapUiGlobalBackgroundColor {
+    background: #2f343d !important;
+    background-color: #2f343d !important;
+    color: #f1f3f5 !important;
+}
+
+.sapMLIB:hover,
+.sapMBtn:hover,
+.sapMITBFilter:hover,
+.sapUiTableRowHvr {
+    background-color: #3b414c !important;
+}
+
+.sapMBtnInner,
+.sapMITBFilter,
+.sapMInputBaseContentWrapper {
+    background-color: #353b45 !important;
+    border: 1px solid #4a515d !important;
+    color: #f1f3f5 !important;
+}
+
+.sapMInputBaseInner,
+.sapMTextAreaInner {
+    color: #f1f3f5 !important;
+}
+
+.sapMITBSelected .sapMITBText {
+    color: #7db3ff !important;
+}
+
+.sapUiTableCell,
+.sapMListTblCell {
+    border-color: #4a515d !important;
+}
+
+.sapUiLoSplitterBar,
+.cpiUiSplitterBar {
+    background: #3b414c !important;
+}
+
+.ace_editor,
+.ace_gutter {
+    background: #2b3038 !important;
+    color: #f1f3f5 !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2f343d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4a515d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5a6270;
 }
